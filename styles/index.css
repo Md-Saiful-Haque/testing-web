@@ -156,3 +156,38 @@ nav{
     font-weight: 400px;
     color: #000000;
 }
+/* Touch sectuion style */
+.contact-section{
+    display: flex;
+    gap: 115px;
+}
+.contact-left{
+    width: 50%;
+}
+.contact-right{
+    padding-top: 75px;
+    padding-right: 150px;
+    width: 50%;
+
+}
+section input[type="email"], section input[type="text"], section textarea{
+    border-radius: 10px;
+    height: 72px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border: 0px solid;
+}
+.contact-title{
+    font-size: 97px;
+    font-weight: bold;
+    padding-top: 200px;
+}
+.contact-form{
+    gap: 19px;
+    flex-direction: column;
+}
+.contact-right level{
+    gap: 19px;
+}
