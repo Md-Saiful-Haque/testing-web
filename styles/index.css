@@ -109,8 +109,6 @@ nav{
     display: flex;
     flex-direction: column;    
 }
-/*.feedback-description{
-}*/
 .feedback h5{
     font-size: 16px;
     font-weight: 800;
@@ -160,34 +158,67 @@ nav{
 .contact-section{
     display: flex;
     gap: 115px;
-}
-.contact-left{
-    width: 50%;
+    background-color: rgba(214, 221, 237, 1);
+    margin-top: 90px;
 }
 .contact-right{
-    padding-top: 75px;
-    padding-right: 150px;
-    width: 50%;
-
+    padding-top: 103px;
 }
-section input[type="email"], section input[type="text"], section textarea{
+section input[type="email"], section input[type="text"]{
     border-radius: 10px;
     height: 72px;
     display: block;
-    width: 100%;
-    padding: 10px 20px;
+    width: 497px;
     background-color: #FFFFFF;
     border: 0px solid;
+}
+section textarea{
+    border-radius: 10px;
+    height: 135px;
+    display: block;
+    width: 497px;
+    background-color: #FFFFFF;
+    border: 0px solid;
+
 }
 .contact-title{
     font-size: 97px;
     font-weight: bold;
-    padding-top: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 .contact-form{
-    gap: 19px;
+    padding: 20px;
     flex-direction: column;
 }
 .contact-right level{
     gap: 19px;
 }
+.btn{
+    width: 497px;
+    height: 62px;
+    margin-top: 19px;
+    padding: 19px 198px;
+}
+.form-group{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #000000;
+}
+/* footer style */
+.footer-section{
+    align-items: center;
+    text-align: center;
+    padding: 100px 455px;
+}
+footer h1{
+    font-size: 100px;
+    font-weight: 800px;
+}
+.footer-link a{
+    text-decoration: none;
+    justify-content: space-between;
+    color: #8987A1;
+    padding: 0px 24px;
+}
+
